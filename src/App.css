@@ -1,0 +1,47 @@
+
+.button{
+  background-color: lightgray;
+  width: 48px;
+  height: 48px;
+  border: 3px whitesmoke;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.grid-container {
+  /* display: grid;
+
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  background-color: #2196F3; */
+  width: 500px;
+  height: 500px;
+  border: 1px solid lightgrey;
+  background-color: darkgray;
+  margin: 0 auto;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+  .button_wrapper{
+    border: 1px solid darkgrey;
+
+  }
+
+  .resetbutton{
+    background-color: lightgray;
+    width: 48px;
+    height: 48px;
+    border: 3px whitesmoke;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 50px
+
+  }
+
+  h1 {
+    text-align: center;
+  }
